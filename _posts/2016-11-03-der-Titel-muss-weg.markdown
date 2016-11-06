@@ -4,7 +4,7 @@ title:  "Der Titel muss weg"
 date:   2016-11-03 14:36:23
 permalink: titel-weg.html
 ---
-<span class="image featured"><img src="/images/pic02.jpg" alt=""></span>
+<span class="image featured"><img src="images/pic02.jpg" alt=""></span>
 Letztens erzählte ich meiner Freundin, dass ich schon wieder beim Arzt mit "Herr Diplomingenieur in die Eins", aufgerufen wurde.
 Da bekomme ich dann immer ganz liebe Blicke der anderen, meist älteren Arztbesucher, die soviel sagen wie 
 "Ohhhh schau, der Herr Diplomingenieur! Den beobachten wir jetzt wie er in die Eins stolziert.".
