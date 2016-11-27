@@ -22,7 +22,7 @@ In my case I have four differernt APs in my network:
 * a [Netgear WGR614v9](https://www.netgear.com/support/product/WGR614v9.aspx?cid=wmt_netgear_organic)
 * a [Xiamoi MiWifi](http://xiaomi-mi.com/mi-wifi/xiaomi-mi-wifi-router-3c-white/)
 
-# Roamings standard amendments
+# Roaming standard amendments
 All of the mentioned devices are infrastructure devices. They are designed for home usage.
 As far as I know they do not support enterprise features like 
 * [802.11k Expose AP information](https://en.wikipedia.org/wiki/IEEE_802.11k-2008)
