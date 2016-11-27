@@ -17,17 +17,19 @@ During research I realiced one thing - It's complicate!
 # My setup
 First of all we have to be aware of the capabilities of the involed devices.
 In my case I have four differernt APs in my network:
-* a [Linksys WRT1900AC](http://www.linksys.com/us/p/P-WRT1900AC/)
-* a [Linksys WRT54G](http://www.linksys.com/us/support-product?pid=01t80000003KXPxAAO)
-* a [Netgear WGR614v9](https://www.netgear.com/support/product/WGR614v9.aspx?cid=wmt_netgear_organic)
-* a [Xiamoi MiWifi](http://xiaomi-mi.com/mi-wifi/xiaomi-mi-wifi-router-3c-white/)
+
+    * a [Linksys WRT1900AC](http://www.linksys.com/us/p/P-WRT1900AC/)
+    * a [Linksys WRT54G](http://www.linksys.com/us/support-product?pid=01t80000003KXPxAAO)
+    * a [Netgear WGR614v9](https://www.netgear.com/support/product/WGR614v9.aspx?cid=wmt_netgear_organic)
+    * a [Xiamoi MiWifi](http://xiaomi-mi.com/mi-wifi/xiaomi-mi-wifi-router-3c-white/)
 
 # Roaming standard amendments
 All of the mentioned devices are infrastructure devices. They are designed for home usage.
 As far as I know they do not support enterprise features like 
-* [802.11k Expose AP information](https://en.wikipedia.org/wiki/IEEE_802.11k-2008)
-* [802.11r Fast BSS transition (FT)](https://en.wikipedia.org/wiki/IEEE_802.11r-2008)
-* [802.11v Exchange Information about network topology](https://en.wikipedia.org/wiki/IEEE_802.11v)
+
+    * [802.11k Expose AP information](https://en.wikipedia.org/wiki/IEEE_802.11k-2008)
+    * [802.11r Fast BSS transition (FT)](https://en.wikipedia.org/wiki/IEEE_802.11r-2008)
+    * [802.11v Exchange Information about network topology](https://en.wikipedia.org/wiki/IEEE_802.11v)
 
 The k and the v standard help clients to find a better connection without enforcing the client to scan through the channels.
 The r makes the roaming faster. Devices like the [iPhone support these features](https://support.apple.com/en-us/HT202628) 
@@ -67,8 +69,9 @@ I'm pretty sure that I do not use any of the standards mentioned earlier but (at
 
 To get data roaming to work you have to use the same SSID and the same security settings on all of your devices. 
 If you still experience problems in such a setup I see two main sources for sticky clients:
-1. Poorly designed clients.
-2. Your APs are too close to each other so that clients do not see the need to roam (or to trigger a scan for other APs).
+
+    1. Poorly designed clients.
+    2. Your APs are too close to each other so that clients do not see the need to roam (or to trigger a scan for other APs).
 
 
 If you have anything to add, please leave a comment! I'm happy to learn and revise the text.
