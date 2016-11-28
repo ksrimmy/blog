@@ -3,16 +3,20 @@ layout: post
 title:  "Wifi Roaming @ home"
 date:   2016-11-27 16:11:23
 permalink: wifi-roaming.html
+comments: true
 ---
 <span class="image featured"><img src="images/router.jpg" alt="just an access point"></span>
 From time to time I stumble into discussions about mobile phones, which seem to stick with the first *Access Point* (AP) even if 
 there are others with a way better connectivity characteristics.
 
 At home I experienced the same issue with these so called *sticky clients*:\\
-Sometimes my WIFI settings are just fine, but when I change a single setting some devices won't hand-over to the best available AP.
+Sometimes my WIFI settings work just fine, but when I change a single setting some devices won't hand-over to the best available AP.
 So let's try to find some explanations for this behaviour.
 In the following I try to find some answers for this behaviour especially for home networks with multiple APs.
 During research I realiced one thing - It's complicate!
+
+# TL;DR
+Use the same settings with all APs and change the distance between them.
 
 # My setup
 First of all we have to be aware of the capabilities of the involed devices.
