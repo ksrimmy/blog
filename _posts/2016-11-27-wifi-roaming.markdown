@@ -8,8 +8,7 @@ permalink: wifi-roaming.html
 From time to time I stumble into discussions about mobile phones, which seem to stick with the first *Access Point* (AP) even if 
 there are others with a way better connectivity characteristics.
 
-At home I experienced the same issue with these so called *sticky clients*:
-
+At home I experienced the same issue with these so called *sticky clients*:\\
 Sometimes my WIFI settings are just fine, but when I change a single setting some devices won't hand-over to the best available AP.
 So let's try to find some explanations for this behaviour.
 In the following I try to find some answers for this behaviour especially for home networks with multiple APs.
