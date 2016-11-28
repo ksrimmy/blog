@@ -11,9 +11,52 @@ layout: landing-page
 					Something to find people to share ideas and funny stories.</h2>
 					<p>So let's start blogging at a time where other people stop writing :)</p>
 				</header>
-					
+
+				<section id="mycv" class="wrapper style3 container special">
+
+					<header class="major">
+						<h2>Florian Steiner</h2>
+					</header>
+
+					<div class="row">
+						<div class="12u">
+
+							<section>
+								<header>
+									<h3>My CV</h3>
+								</header>
+								<article class="resume"></article>
+							</section>
+
+						</div>
+					</div>
+<!--
+					<footer class="major">
+						<ul class="buttons">
+							<li><a href="#" class="button">See More</a></li>
+						</ul>
+					</footer>-->
+
+				</section>
+
+
+
+				<section class="wrapper style4 container">
+					<ul class="posts">
+						{% for post in site.posts %}
+						<li class="wrapper {% if forloop.first %} style2 {% else %} style1 {% endif %}">
+							<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+							{{ post.excerpt }}
+							<section class="special">
+								<ul class="buttons">
+									<li><a href="{{ post.url }}" class="button">Read more</a></li>
+								</ul></section>
+						</li>
+						{% endfor %}
+					</ul>
+				</section>
 				<!-- One -->
-					<section class="wrapper style2 container special-alt">
+				<!--	<section class="wrapper style2 container special-alt">
 						<div class="row half">
 							<div class="8u">
 							
@@ -41,10 +84,10 @@ layout: landing-page
 							
 							</div>				
 						</div>
-					</section>
+					</section>-->
 					
 				<!-- Two -->
-					<section class="wrapper style1 container special">
+			<!--		<section class="wrapper style1 container special">
 						<div class="row">
 							<div class="4u">
 							
@@ -80,10 +123,10 @@ layout: landing-page
 							
 							</div>
 						</div>
-					</section>
+					</section>-->
 					
 				<!-- Three -->
-					<section class="wrapper style3 container special">
+					<!--<section class="wrapper style3 container special">
 					
 						<header class="major">
 							<h2>Next look at this <strong>cool stuff</strong></h2>
@@ -146,10 +189,10 @@ layout: landing-page
 					
 					</section>
 					
-			</article>
+			</article>-->
 
 		<!-- CTA -->
-			<section id="cta">
+	<!--		<section id="cta">
 			
 				<header>
 					<h2>Ready to do <strong>something</strong>?</h2>
@@ -162,4 +205,8 @@ layout: landing-page
 					</ul>
 				</footer>
 			
-			</section>
+			</section>-->
+
+<script>
+	var resume = new d3Resume({ width: 860, height: 500, wrapperSelector: "article.resume", dataUrl: 'js/resume.json' });
+</script>

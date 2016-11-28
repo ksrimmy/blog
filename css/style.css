@@ -1102,3 +1102,13 @@
 			display: inline-block;
 			width: 5em;
 		}
+
+	#mycv svg {
+		font-size: 12px;
+	}
+
+	@media all and (max-width: 980px)  {
+		#mycv {
+			display: none;
+		}
+	}
