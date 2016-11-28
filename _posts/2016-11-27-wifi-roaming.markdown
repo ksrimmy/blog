@@ -26,6 +26,7 @@ In my case I have four differernt APs in my network:
 # Roaming standard amendments
 All of the mentioned devices are infrastructure devices. They are designed for home usage.
 As far as I know they do not support enterprise features like 
+
 * [802.11k Expose AP information](https://en.wikipedia.org/wiki/IEEE_802.11k-2008)
 * [802.11r Fast BSS transition (FT)](https://en.wikipedia.org/wiki/IEEE_802.11r-2008)
 * [802.11v Exchange Information about network topology](https://en.wikipedia.org/wiki/IEEE_802.11v)
@@ -51,6 +52,7 @@ This brings us straight to the most important issue: *Roaming is triggered by th
 Per design it is a client decision when to roam. Some clients have highly sophisticated algorithms to find the right time,
 other devices do a poor job and stick to the current network until they loose the connection.
 But all of them have to do the following steps as [Andrew von Nagy mentioned](http://www.revolutionwifi.net/revolutionwifi/2011/12/wi-fi-roaming-analysis-part-1.html):
+
 1. Passive / Active scanning in the background to identify other APs that are within range
 2. Client roam triggers (exact algorithms are vendor proprietary, but are commonly based on signal strength thresholds, RSSI heuristics between APs, data rate shifting, retry and error rates)
 3. Active scanning to confirm the new AP is still available
@@ -68,6 +70,7 @@ I'm pretty sure that I do not use any of the standards mentioned earlier but (at
 
 To get data roaming to work you have to use the same SSID and the same security settings on all of your devices. 
 If you still experience problems in such a setup I see two main sources for sticky clients:
+
 1. Poorly designed clients.
 2. Your APs are too close to each other so that clients do not see the need to roam (or to trigger a scan for other APs).
 
