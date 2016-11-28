@@ -17,6 +17,7 @@ During research I realiced one thing - It's complicate!
 # My setup
 First of all we have to be aware of the capabilities of the involed devices.
 In my case I have four differernt APs in my network:
+
 * a [Linksys WRT1900AC](http://www.linksys.com/us/p/P-WRT1900AC/)
 * a [Linksys WRT54G](http://www.linksys.com/us/support-product?pid=01t80000003KXPxAAO)
 * a [Netgear WGR614v9](https://www.netgear.com/support/product/WGR614v9.aspx?cid=wmt_netgear_organic)
