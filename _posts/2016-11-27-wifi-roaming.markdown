@@ -4,6 +4,7 @@ title:  "Wifi Roaming @ home"
 date:   2016-11-27 16:11:23
 permalink: wifi-roaming.html
 ---
+<span class="image featured"><img src="images/router.jpg" alt="just an access point"></span>
 From time to time I stumble into discussions about mobile phones, which seem to stick with the first *Access Point* (AP) even if 
 there are others with a way better connectivity characteristics.
 
