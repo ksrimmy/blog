@@ -37,7 +37,7 @@ As far as I know they do not support enterprise features like
 
 The k and the v standard help clients to find a better connection without enforcing the client to scan through the channels.
 The r makes the roaming faster. Devices like the [iPhone support these features](https://support.apple.com/en-us/HT202628) 
-for a long time. This sounds quit charming, but I am pretty sure that nothing of these is enabled within my home infrastructure,
+for a long time. This sounds quite charming, but I am pretty sure that nothing of these is enabled within my home infrastructure,
 but still (at least right now) my network works just fine. What else do we have?
 
 # AP settings
