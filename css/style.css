@@ -1112,7 +1112,3 @@
 			display: none;
 		}
 	}
-
-	section.style4 > ul > li:before {
-		content: "✔";
-	}
