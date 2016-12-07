@@ -1112,3 +1112,7 @@
 			display: none;
 		}
 	}
+
+	section > ul > li:before {
+		content: "✔";
+	}
