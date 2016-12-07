@@ -18,7 +18,7 @@ During research I realiced one thing - It's complicate!
 # TL;DR
 
 * Use the same settings with all APs.
-* Change the distance between APs so that the signal strength exceeds -70 dBm.
+* Change the distance between APs so that the signal strength of the distant AP exceeds -70 dBm at the target location (couch, place of work, etc.).
 * Do not use poor designed clients. ;)
 
 # My setup
@@ -67,7 +67,7 @@ But all of them have to do the following steps as [Andrew von Nagy mentioned](ht
 
 It is hard to find a description about the used roaming triggers for most of the hardware vendors. 
 I found [this documentation](https://support.apple.com/en-us/HT203068) for iOS 8 devices. 
-It states that if the signal strength exceeds -70 dBm the device willvscan for other APs with better signal strength.
+It states that if the received signal strength exceeds -70 dBm the device will scan for other APs with a better signal.
 I think this caused some of the unexpected behaviour in the past were I installed the APs at different locations.
 
 # Conclusion
