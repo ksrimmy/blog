@@ -1113,6 +1113,6 @@
 		}
 	}
 
-	section > ul > li:before {
+	section.style4 > ul > li:before {
 		content: "✔";
 	}
