@@ -16,7 +16,10 @@ In the following I try to find some answers for this behaviour especially for ho
 During research I realiced one thing - It's complicate!
 
 # TL;DR
-Use the same settings with all APs and change the distance between them.
+
+* Use the same settings with all APs.
+* Change the distance between APs so that the signal strength exceeds -70 dBm.
+* Do not use poor designed clients. ;)
 
 # My setup
 First of all we have to be aware of the capabilities of the involed devices.
